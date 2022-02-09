@@ -1,4 +1,4 @@
-# CHACKRA UI
+# CHAKRA UI
 Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 
 * Interface declarativa: estilização de elementos direto pela tag do jsx
@@ -22,7 +22,7 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 	-> jogar pasta pages pra dentro da pasta src
 	-> roda o servidor novamente
 
-# 2) Instalando e Configurando chakra UI
+# 2) Instalando e Configurando Chakra UI
 
 	-> instalar ChakraUI: npm add @chakra-ui/react @chakra-ui/core @emotion/react @emotion/styled framer-motion
 	-> em styles criar arquivo theme.ts
