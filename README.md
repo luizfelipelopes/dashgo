@@ -1,9 +1,10 @@
 # CHACKRA UI
+Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 
-Interface declarativa: estilização de elementos direto pela tag do jsx
-Theme UI
-Tailwind Css
-Chakra UI => FrameMotion
+* Interface declarativa: estilização de elementos direto pela tag do jsx
+* Theme UI
+* Tailwind Css
+* Chakra UI => FrameMotion
 
 # 1) Configurando Projeto
 
