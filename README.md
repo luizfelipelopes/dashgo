@@ -31,3 +31,17 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 	-> criar arquivo _document.tsx em pages
 	-> recuperar links fontes p/ Roboto e colar em _document
 	-> inserir fonts Roboto em theme.ts
+
+# 3) Login e Dashboard
+	Obs:
+	* Split Html attributes (extensão p/ identar html)
+	* Sempre irá fazer o processo de componentizar os elementos em partes menores
+
+	-> trabalhar em index.tsx
+	-> criar componente p/ input criado em index.tsx => pasta Form/Input.tsx
+	-> criar página dashboard.tsx
+	-> criar componente Header.tsx em components
+	-> instalar biblioteca react-icons p/ icone do search: npm add react-icons
+	-> Em dshboars.tsx envolver todo o conteudo em Flex e criar um Flex especifico para o conteudo abaixo do header
+	-> criar componente sidebar
+	-> em Dashboard criar charts (https://apexcharts.com/): npm add apexcharts react-apexcharts
