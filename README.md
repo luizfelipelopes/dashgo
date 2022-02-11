@@ -45,3 +45,10 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 	-> Em dshboars.tsx envolver todo o conteudo em Flex e criar um Flex especifico para o conteudo abaixo do header
 	-> criar componente sidebar
 	-> em Dashboard criar charts (https://apexcharts.com/): npm add apexcharts react-apexcharts
+
+# 4) Lista de Usuários
+	-> criar pasta users em pages
+	-> criar index.tsx em users p/ criação de listagem de usuarios
+	-> criar component Pagination.tsx e aplicar na página users
+	-> criar arquivo create.tsx na pasta users para página de criação de usuários
+
