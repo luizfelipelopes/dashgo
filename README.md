@@ -52,3 +52,41 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 	-> criar component Pagination.tsx e aplicar na página users
 	-> criar arquivo create.tsx na pasta users para página de criação de usuários
 
+# 5) Responsividade
+	obs: com interfaces declarativas ganha-se na manutenção, porém o código fica mais verboso
+	solução: separa os componentes em mais subcomponentes
+
+	* Separação de componentes
+		-> Criar pasta Header
+			-> criar componente Logo.tsx
+			-> criar componente SearchBox.tsx
+			-> crir componente NotificationsNav.tsx
+			-> criar componente Profile.tsx
+			-> ir no componente Header.tsx e pegarcada trwcho de código e inserir nos respectivos componentes criados
+			-> remover importações não utilizadas
+			-> criar arquivo index.tsx na pasta Header
+			-> passar o conteudo de Header.tsx p/ index.tsx
+			-> deletar arquivo Header.tsx
+			-> reiniciar servidor
+
+		-> Criar pasta Sidebar
+			-> criar arquivo index.tsx (inserir conteudo do Sidebar.tsx)
+			-> criar componente NavLink.tsx
+			-> criar componente NavSection.tsx
+			-> deletar arquivo Sidebar.tsx
+			-> reiniciar servidor
+
+		-> Criar pasta pagination
+			-> criar arquivo index.tsx (inserir conteudo de Pagination.tsx)
+			-> criar componente PaginationItem.tsx
+			-> deletar Pagination.tsx
+			-> reiniciar servidor
+
+	* Header responsivo
+	* Sidebar Responsiva
+		-> criar componente SidebarNav.tsx
+		-> passar conteudo do Index.tsx para SidebarNav.tsx
+		-> importar componente no Index.tsx
+		-> criar pasta contexts em src
+		-> criar arquivo SideBarDrawerContext.tsx
+		-> aplicar contexto em Header e Sidebar
