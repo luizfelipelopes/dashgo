@@ -90,3 +90,13 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 		-> criar pasta contexts em src
 		-> criar arquivo SideBarDrawerContext.tsx
 		-> aplicar contexto em Header e Sidebar
+	* Dashboard responsivo
+	* Listagem e pagination responsiva
+	* Cadastro responsivo
+	* Fluxo de navegação
+		-> Componente NavLink
+			obs: passHref passa de forma forçado ocomportamento do elemento de link 'a'
+	* sinalizando link ativo
+		-> criar componente ActiveLink.tsx
+			obs: asPath do useRouter() indica a rota ativa
+
