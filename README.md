@@ -100,3 +100,23 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 		-> criar componente ActiveLink.tsx
 			obs: asPath do useRouter() indica a rota ativa
 
+# 6) Formulários e Validação
+
+	Obs:
+	Controlled Components => useState()
+	Uncontrolled Componentes => useRef()
+
+	react Hook Forms atualização:
+	ref={register} => {...register('email')}
+
+	Ex:
+	Formik
+	React Hook Form
+	Unform (Rockeat Seat)
+
+
+	-> instalar React Hook Form: npm add react-hook-form
+	-> Form de autenticação
+	-> Validação dos dados
+		-> instalar yup e integração do hook form c/ yup: npm add yup @hookform/resolvers
+	-> Form de criação do usuário
