@@ -120,3 +120,31 @@ Projeto para fins de estudo utilizando Chakra UI React JS e Next JS
 	-> Validação dos dados
 		-> instalar yup e integração do hook form c/ yup: npm add yup @hookform/resolvers
 	-> Form de criação do usuário
+
+# DATA FETCHING E CACHE LOCAL
+Obs:
+Cache local de dados: armazenar dados da req em um cache para mostrar de maneira instantanea
+Data Sync: altarar dados cache q foram alterados
+
+Ex:
+React Query
+SWR
+
+# 1) Configurando MirageJS
+	1) instalar miragejs p/ simular comportamento de uma API: npm add miragejs -D
+	2) Criar pastas services -> mirage -> index.ts
+	3) Aplicar make Server no _app.tsx caso seja em ambiente de dev
+	4) restarta servidor
+# 2) Factories e seeds
+	seeds: cria dados assim q o servidor for inicializado
+	factories: formas de conseguir gerar dados e massa
+
+	1) aplicar factories em index.ts no mirage
+	2) instalar Faker p/ e-mails ficticios: npm add @faker-js/faker -D
+	3) chamar os users gerados no arquivo indext.tsx da pasta users
+# 3) Configurando React Query
+	1) Instalar react query: npm add react-query
+	2) Em user importar a biblioteca
+	3) Aplica o fetch dentro da const do react query criada
+	4) Aplicar QueryClientProvider no App passndo valor do queryClient
+	5) Listar usuário utilizando map
