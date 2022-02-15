@@ -164,3 +164,12 @@ SWR
 	1) aplicar import { ReactQueryDevtools } from 'react-query/devtools' em '_app.tsx'
 	2) aplicar staleTime (durante quanto tempo que não precisa recarregar os dados (fresh))
 
+# 5) Construindo aplicação
+	-> sinaliza refetch dos dados (loading do refetch após a palavra Usuários)
+	-> Configurando Axios
+		-> criar em services api.ts
+		-> onstalar axios: npm add axios
+		-> trocar fetch por api.get em userList
+	-> Criando hook de listgem
+		-> Criar pasta hooks em services
+		-> criar arquivo useUsers.ts
