@@ -148,3 +148,19 @@ SWR
 	3) Aplica o fetch dentro da const do react query criada
 	4) Aplicar QueryClientProvider no App passndo valor do queryClient
 	5) Listar usuário utilizando map
+# 4) Configurando Dev Tools
+
+	* Actions:
+		-> Refetch: Recarrega a lista, mas não tira os dados de tela (dados continuam em cache)
+		-> Reset: Limpa todos os dados e começa de novo (joga o cache fora)
+		-> Remove: Remove totalmente o cache
+		-> Invalidate: Torna o dado obsoleto, provcando refresh dos dados
+
+	* Estados:
+		-> stale: ao recarregar ou der foco o react query precisa buscar os dados novamente na API
+		-> fetching: dados em carregamento
+		-> fresh: dados frescos, não preciso recarregar os dados dentro de um certo período
+
+	1) aplicar import { ReactQueryDevtools } from 'react-query/devtools' em '_app.tsx'
+	2) aplicar staleTime (durante quanto tempo que não precisa recarregar os dados (fresh))
+
