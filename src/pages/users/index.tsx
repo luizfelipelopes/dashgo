@@ -18,8 +18,6 @@ export default function UserList({ users }) {
         initialData: users
     });
 
-    console.log(page, data);
-
     const isWideVersion = useBreakpointValue({
         base: false,
         lg: true
@@ -97,7 +95,7 @@ export default function UserList({ users }) {
                                                     <Text fontSize={"sm"} color={"gray.300"}>{user.email}</Text>
                                                 </Box>
                                             </Td>
-                                            { isWideVersion && <Td>{user.createdAt}</Td> }
+                                            { isWideVersion && <Td>{user.created_at}</Td> }
                                             <Td>
                                             { isWideVersion && (
                                                 <Button
@@ -140,13 +138,15 @@ export default function UserList({ users }) {
 }
 
 
-export const getServerSideProps: GetServerSideProps = async () => {
+// export const getServerSideProps: GetServerSideProps = async () => {
 
-    const { users, totalCount } = await getUsers(1);
+//     // Esta chamada ao MirageJs nao ira funcionar,
+//     // pois a biblioteca só roda apenas no client-side
+//     const { users, totalCount } = await getUsers(1);
 
-    return {
-        props: {
-            users
-        }
-    }
-}
+//     return {
+//         props: {
+//             users
+//         }
+//     }
+// }
