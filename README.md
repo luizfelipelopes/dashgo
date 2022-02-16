@@ -173,3 +173,7 @@ SWR
 	-> Criando hook de listgem
 		-> Criar pasta hooks em services
 		-> criar arquivo useUsers.ts
+	-> lógica de paginação
+		-> no index.ts do Mirage criar lógica de paginação em routes retronando em New Response
+	-> prefetch	de dados
+	-> mutations
